@@ -7,9 +7,10 @@
 
 /* COMMON */
 .container {
-    width: 70%;
+    width: 85%;
     margin: 0 auto;
 }
+
 img {
     width: 100%;
     display: block;
@@ -19,20 +20,42 @@ img {
 h1 {
     text-align: center;
 }
-
 .row {
     display: flex;
     justify-content: space-between;
-
+    padding-top: 50px;
 }
-
 .col {
     width: calc((100% / 3));
 }
-
+.card {
+    position: relative;
+}
 .card img {
-    width: 300px;
-    height: 450px;
-    object-fit: cover;
+    height: 600px;
+    object-fit: contain;
+}
+.card:hover img {
+    filter: brightness(0.2);
+}
+.card .movie_info {
+    display: none;
+    position: absolute;
+    overflow-y: overlay;
+    height: 100%;  
+    z-index: 10; 
+    padding: 60px 90px 60px 0;
+    top: 0%;
+    left: 15%;
+    color: white;
+}
+.card:hover .movie_info{
+    display: block;
+}
+.card .movie_info > * {
+    padding-bottom: 20px;
 }
 
+.card .movie_info span {
+    color: gold;
+}

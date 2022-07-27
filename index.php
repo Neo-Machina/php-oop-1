@@ -56,27 +56,27 @@
             <div class="row">
                 <div class="col">
                     <div class="card">
-                        <img src="img/taxidriver.jpg" alt="taxidriver">
+                        <img src="img/taxi_driver.jpg" alt="taxidriver">
 
-                        <div>
+                        <div class="movie_info">
                             <div>
-                                TITLE: <?php echo $taxiDriver->title; ?>
+                                <span>TITLE</span>: <?php echo $taxiDriver->title; ?>
                             </div>
 
                             <div>
-                                DIRECTOR: <?php echo $taxiDriver->director; ?>
+                                <span>DIRECTOR</span>: <?php echo $taxiDriver->director; ?>
                             </div>
                             
                             <div>
-                                RELEASED DATE: <?php echo $taxiDriver->releasedDate; ?>
+                                <span>RELEASED DATE</span>: <?php echo $taxiDriver->releasedDate; ?>
                             </div>
 
                             <div>
-                                LANGUAGE: <?php echo $taxiDriver->language; ?>
+                                <span>LANGUAGE</span>: <?php echo $taxiDriver->language; ?>
                             </div>
 
                             <div>
-                                OVERVIEW: <?php echo $taxiDriver->overview; ?>
+                                <span>OVERVIEW</span>: <?php echo $taxiDriver->overview; ?>
                             </div>
                         </div>
                     </div>
@@ -86,24 +86,26 @@
                     <div class="card">
                         <img src="img/drive.jpg" alt="drive">
 
-                        <div>
-                            TITLE: <?php echo $drive->title; ?>
-                        </div>
+                        <div class="movie_info">
+                            <div>
+                                <span>TITLE</span>: <?php echo $drive->title; ?>
+                            </div>
 
-                        <div>
-                            DIRECTOR: <?php echo $drive->director; ?>
-                        </div>
-                        
-                        <div>
-                            RELEASED DATE: <?php echo $drive->releasedDate; ?>
-                        </div>
+                            <div>
+                                <span>DIRECTOR</span>: <?php echo $drive->director; ?>
+                            </div>
+                            
+                            <div>
+                                <span>RELEASED DATE</span>: <?php echo $drive->releasedDate; ?>
+                            </div>
 
-                        <div>
-                            LANGUAGE: <?php echo $drive->language; ?>
-                        </div>
+                            <div>
+                                <span>LANGUAGE</span>: <?php echo $drive->language; ?>
+                            </div>
 
-                        <div>
-                            OVERVIEW: <?php echo $drive->overview; ?>
+                            <div>
+                                <span>OVERVIEW</span>: <?php echo $drive->overview; ?>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -112,24 +114,26 @@
                     <div class="card">
                         <img src="img/nightcrawler.jpg" alt="nightcrawler">
 
-                        <div>
-                            TITLE: <?php echo $nightcrawler->title; ?>
-                        </div>
+                        <div class="movie_info">
+                            <div>
+                                <span>TITLE</span>: <?php echo $nightcrawler->title; ?>
+                            </div>
 
-                        <div>
-                            DIRECTOR: <?php echo $nightcrawler->director; ?>
-                        </div>
-                        
-                        <div>
-                            RELEASED DATE: <?php echo $nightcrawler->releasedDate; ?>
-                        </div>
+                            <div>
+                                <span>DIRECTOR</span>: <?php echo $nightcrawler->director; ?>
+                            </div>
+                            
+                            <div>
+                               <span>RELEASED DATE</span>: <?php echo $nightcrawler->releasedDate; ?>
+                            </div>
 
-                        <div>
-                            LANGUAGE: <?php echo $nightcrawler->language; ?>
-                        </div>
+                            <div>
+                                <span>LANGUAGE</span>: <?php echo $nightcrawler->language; ?>
+                            </div>
 
-                        <div>
-                            OVERVIEW: <?php echo $nightcrawler->overview; ?>
+                            <div>
+                                <span>OVERVIEW</span>: <?php echo $nightcrawler->overview; ?>
+                            </div>
                         </div>
                     </div>
                 </div>
