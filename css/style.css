@@ -52,10 +52,11 @@ h1 {
 .card:hover .movie_info{
     display: block;
 }
-.card .movie_info > * {
+.card .movie_info div {
     padding-bottom: 20px;
 }
 
 .card .movie_info span {
     color: gold;
+    text-transform: uppercase;
 }
