@@ -43,7 +43,6 @@ h1 {
     position: absolute;
     overflow-y: overlay;
     height: 100%;  
-    z-index: 10; 
     padding: 60px 90px 60px 0;
     top: 0%;
     left: 15%;
